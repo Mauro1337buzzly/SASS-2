@@ -1,0 +1,251 @@
+@media only screen and (max-width: 768px){
+
+	body {overflow-x: hidden;}
+
+	/*GRID*/
+
+#grid {
+		grid-template-areas:
+		  "header header header "
+		  "nav nav nav" 
+		  "section2 section2 section2"
+		  "section3 section3 section3"
+		  "aside aside aside" 
+		  "footer footer footer " ;
+
+		  grid-template-columns: 20vw 80vw;
+		  grid-template-rows:auto;
+		  grid-gap: 20px;
+		  overflow-x: hidden;
+		  display: flex;
+		  flex-direction: column;
+
+
+ }
+
+
+ .section2 img { 
+	width: 100px;  }
+
+.section3  {  
+		grid-area: section3;
+		width: auto;
+
+		& iframe { width: 100%;
+			    }	
+
+
+		 }
+
+	
+
+
+.mainFooterindex h3 { font-size: 20px; }	
+
+	.mainFooterindex img { width: 100px;
+ 				height: 100px; }
+
+
+#remeras {
+
+
+
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.5rem;
+	padding: 20px 0;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 20px 0;
+
+& h1 {
+
+	font-size: 60px;
+			}
+
+
+& .seccionRemeras {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width: 100vw;
+
+
+		& figure{
+
+			text-align: center;
+
+			padding: 10px 0; 
+
+& img{
+
+						width: 400px;
+						height: auto;
+						border-style: outset;
+						border-color: black;
+
+								}
+
+							& p{
+
+						font-size: 1.3rem;
+						color: lightblue ;
+						padding-bottom: 10px;
+
+								}	
+
+
+
+
+			 }
+
+
+
+	}
+
+
+
+				
+
+					
+					
+
+
+
+			}
+
+
+
+	
+
+				/*DESCUENTOS*/				
+.grid { display: grid;  
+        grid-template-areas: 
+        "div div div"
+         "nav nav nav" 
+          "article article article"
+          "aside aside aside"
+           "footer footer footer";
+           grid-template-columns: 100%;
+           grid-template-rows: auto;
+           grid-column-gap: 10px;
+           grid-row-gap: 2px;
+           overflow-x: hidden;
+           overflow-y: hidden;	
+           display: flex;
+           flex-direction: column;							
+
+
+
+	
+}		
+
+
+
+/*Breakpoint para resoluciones menores a 320px*/	
+
+
+@media only screen and (max-width: 320px){
+
+	#grid {  
+
+		display: grid;
+		grid-template-areas:	   
+		  "header"
+		  "nav"
+		  "section2" 
+		  "section3" 
+		  "aside" 
+		  "footer";
+		  grid-template-columns: 320px;
+		  grid-template-rows: auto;
+		  grid-gap: 0;
+		  overflow-x: hidden;
+
+					}
+ }
+
+
+  /*Seccion Remeras*/
+
+#remeras {
+
+
+
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.2rem;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 2px 0;
+	overflow-x: hidden;
+
+
+	& h1 {
+
+	font-size: 70px;
+	text-align: center;
+			}
+
+
+	& .seccionRemeras {
+
+		margin: 0;
+
+		display: flex;
+		flex-direction: column;
+
+
+		justify-content: space-evenly;
+
+
+		& figure{
+
+			text-align: center;
+
+			padding: 50px 10px; 
+
+			& img{
+
+						width: 70%;
+						border-style: outset;
+						border-color: black;
+
+								}
+
+
+
+					& figcaption {
+
+							font-size: 1.6rem;
+									  }
+
+
+					& p{
+
+	font-size: 1.3rem;
+	color: lightblue ;
+	padding-bottom: 10px;}
+	}
+
+
+
+
+			 }
+
+
+
+	}		
+
+
+			}
+
+
+
+
+
+
+	
+
+		
+
+

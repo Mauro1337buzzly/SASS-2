@@ -1,0 +1,68 @@
+#remeras {
+
+
+
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 2px 0;
+	overflow-x: hidden;
+
+	& h1 {
+
+	font-size: 100px;
+	text-align: center;
+	color: white;
+			}
+
+			& .seccionRemeras {
+
+		margin: 2px;
+
+		display: flex;
+		flex-direction: column;
+
+
+		justify-content: space-evenly;
+
+	& figure{
+
+			text-align: center;
+
+			padding: 50px 10px;  
+
+
+
+				&  img{
+
+						width: 400px;
+						border-style: outset;
+						border-color: black;
+
+								}
+
+			&  figcaption {
+
+							font-size: 1.6rem;
+							color: white;
+									  }		
+
+					&  p{
+
+						font-size: 1.3rem;
+						color: $colorprincipal ;
+						padding-bottom: 10px;
+
+								}
+				  			
+
+		}
+
+	}
+}
+
+
+
+
+
+	

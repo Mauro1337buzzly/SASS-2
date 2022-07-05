@@ -1,0 +1,22 @@
+#camperas {
+
+	 	text-transform: uppercase;
+		text-align: center;
+		font-size: 30px;
+		padding: 10px 10px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+
+
+& img { width: 60%; }	
+
+		& h1 { font-size: 60%;
+		padding: 20px 0;
+		color: $colorprincipal;
+				 }		
+
+
+			 	}
+
